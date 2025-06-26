@@ -1,0 +1,355 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    /* background-color: #9b3270; */
+
+}
+
+main {
+    background: url("banner2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+
+/* header */
+
+
+.header-wraper {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    color: white;
+}
+
+.header-wraper nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header-wraper>nav a {
+    color: white;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .header-wraper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-wraper>nav {
+        justify-content: center;
+        margin-top: 15px;
+
+    }
+
+}
+
+/* header */
+
+
+/* banner */
+
+.banner-wraper {
+    text-align: center;
+    color: white;
+    padding: 100px 0px;
+}
+
+.banner-wraper>h1 {
+    font-weight: 600px;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 0px;
+
+}
+
+.banner-wraper>p {
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.banner-wraper a {
+    display: inline-flex;
+    color: white;
+    background-color: black;
+    padding: 20px 30px;
+    /* margin-top: 20px; */
+    border-radius: 50px;
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .text-break {
+        display: block;
+    }
+
+    .banner-wraper>h1 {
+        font-size: 94px;
+    }
+}
+
+/* banner */
+
+
+/* client */
+
+.client-wraper {
+    margin: 40px 0px;
+}
+
+.client-wraper>h4 {
+    text-align: center;
+    margin: 50px 0px;
+    color: rgb(134, 149, 163);
+}
+
+.client-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.client-img>div {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .client-img>div {
+        text-align: center;
+        width: 33.3%;
+        gap: 0px;
+    }
+
+    .client-img {
+        gap: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .client-img>div {
+        text-align: center;
+        width: 50%;
+        gap: 0px;
+    }
+
+    .client-img {
+        gap: 0px;
+    }
+}
+
+
+.solution-header>div>p span {
+    text-align: center;
+    /* margin: 10px; */
+
+}
+.solution-header>div>h2 {
+    /* font-family: "Montserrat", sans-serif; */
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 40px;
+}
+
+
+/* solution */
+.solution {
+    background-color: rgb(220, 220, 219);
+}
+
+.solution-wraper {
+
+    font-family: "Montserrat", sans-serif;
+}
+
+.solution-wraper>div>h2 {
+    /* font-family: "Montserrat", sans-serif; */
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 40px;
+}
+
+.solution-wraper>div>p span {
+    text-align: center;
+    /* margin: 10px; */
+
+}
+
+.solution-wraper>div {
+    padding-bottom: 100px;
+}
+
+.solution-sec1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container-solution>div:nth-child(2)>div:first-child{
+    /* background-color: red; */
+    order: 2;
+}
+.container-solution>div:nth-child(2)>div:last-child{
+    /* background-color: red; */
+    order: 1;
+}
+.solution-sec1>div{
+    width: 50%;
+    /* background-color: green; */
+}
+.solution-sec1>div:last-child{
+    /* width: 50%; */
+    text-align: right;
+    /* background-color: green; */
+}
+.container-solution>div:nth-child(2)>div:last-child{
+    /* background-color: green; */
+    text-align: left;
+}
+
+
+
+
+
+
+.solution-sec1 {
+    width: 750px;
+    /* width: 60%; */
+    margin: 0px auto;
+}
+
+
+
+
+.solution-sec1>div>h4 {
+    font-size: 30px;
+    color: blue;
+    /* display: none; */
+    padding: 15px 0px;
+}
+
+.solution-sec1>div>p>span {
+    padding: 5px 0px;
+}
+
+.solution-sec1>div>:nth-child(4) {
+    /* color: aqua; */
+    padding: 20px 0px;
+
+}
+   .solution-wraper>div> p {
+    text-align: center;
+    }
+.container-solution>div:first-child {
+    margin-bottom: 70px;
+}
+
+.container-solution>div:nth-child(2) {
+    margin-bottom: 70px;
+}
+
+@media only screen and (max-width: 868px) {
+    .solution-sec1 {
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    }
+    .solution-sec1>div:last-child{
+        /* background-color: black; */
+        order: 1;
+    }
+    .solution-sec1>div:first-child{
+        /* background-color: black; */
+        order: 2;
+    }
+   .solution-wraper>div>h2 {
+    /* font-family: "Montserrat", sans-serif; */
+
+    padding: 20px 0px;
+    font-size: 30px;
+    }
+   .solution-wraper>div> p {
+    text-align: center;
+    }
+    .solution-sec1>div{
+    width: 100%;
+    /* background-color: green; */
+}
+.solution-sec1>div:last-child{
+    /* width: 50%; */
+    text-align: center;
+    /* background-color: green; */
+}
+.container-solution>div:nth-child(2)>div:last-child{
+    /* background-color: green; */
+    text-align: center;
+}
+
+}
+
+/* happy */
+.solution-header{
+    padding: 50px;
+}
+.happy-wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.happy-wraper>div:first-child>p>span{
+    padding: 5px 0px;
+
+}
+.happy-wraper>div:first-child h4{
+    padding-top: 40px;
+
+}
+.happy-wrap>div:first-child>div>h2>img{
+    /* display: none; */
+    position: absolute;                                                                      
+    /* background-color: aqua; */
+
+    display: inline-block;
+    justify-content: center;
+top: -15px;
+
+    /* padding-bottom: 100px; */
+
+}
+.happy-wrap>div:first-child>div>h2{
+    /* display: none; */
+    position: relative;                                                                      
+    /* background-color: aqua; */
+    text-align: center;
+    /* display: inline-block; */
+    justify-content: center;
+/* top: -10px; */
+
+    /* padding-bottom: 100px; */
+
+}
